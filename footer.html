@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+  <style>
+    /* Footer Container */
+    .footer {
+      background-color: #1C5C74;
+      color: white;
+      padding: 50px 0;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    /* About Section */
+    .footer-section.about {
+      max-width: 350px;
+    }
+
+    .footer-section.about img.footer-logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .footer-section.about p {
+      color: #d0d0d0;
+      margin-bottom: 20px;
+    }
+
+    .read-more {
+      color: #FFB400;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer-socials {
+      margin-top: 10px;
+    }
+
+    .footer-socials a {
+      color: white;
+      margin-right: 15px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    /* Quick Links Section */
+    .footer-section.quick-links h3 {
+      color: #FFB400;
+      margin-bottom: 20px;
+    }
+
+    .footer-section.quick-links ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .footer-section.quick-links ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-section.quick-links ul li a {
+      color: #d0d0d0;
+      text-decoration: none;
+    }
+
+    .footer-section.quick-links ul li a:hover {
+      color: white;
+    }
+
+    /* Contact Section */
+    .footer-section.contact h3 {
+      color: #FFB400;
+      margin-bottom: 20px;
+    }
+
+    .footer-section.contact p {
+      color: #d0d0d0;
+      margin-bottom: 10px;
+    }
+
+    /* Bottom Footer */
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 20px auto 0;
+      padding: 20px 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .footer-bottom p {
+      color: #d0d0d0;
+    }
+
+    .footer-bottom-links a {
+      color: white;
+      margin-left: 15px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo and About Section -->
+      <div class="footer-section about">
+        <img src="/logos/adbiyas-travel.jpg" alt="Adbiyas Tour" class="footer-logo">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standa
+        </p>
+        <a href="#" class="read-more">Read More</a>
+        <div class="footer-socials">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="footer-section quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Flight</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms Of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Report an issue</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="footer-section contact">
+        <h3>Contact</h3>
+        <p>Phone: +669 4398 4920</p>
+        <p>Email: sahabuddin@gmail.com</p>
+        <p>Address: 947 WashingtonDC, USA</p>
+        <p>Sat - Fri (9:00am - 9:00pm)</p>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2023</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Customer support</a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
